@@ -2,7 +2,6 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="L&P Contadores - Soluciones contables y facturación electrónica. Ofrecemos servicios de contabilidad, asesoría gratuita, certificaciones de ingresos y más.">
     <meta name="keywords" content="contabilidad, facturación electrónica, certificaciones de ingresos, planillas, declaración de impuestos, asesoría contable, registro de accionistas, L&P Contadores, Costa Rica">
@@ -10,137 +9,120 @@
     <title>L&P Contadores - Soluciones Contables</title>
     <link rel="stylesheet" href="styles.css"> <!-- Aquí podrías vincular un archivo de estilos CSS para personalizar el diseño -->
     <style>
-/* Ajustes para pantallas pequeñas */
-@media (max-width: 768px) {
+        
+        /* Ajustes para pantallas pequeñas */
+@media (max-width: 768px) {}
+    /* Elimina el fondo fijo en móviles */
     body {
         background-attachment: scroll;
         background-size: contain;
     }
-}
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+        header {
+            background-color: #004d99;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
 
-/* Estilo general del cuerpo */
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-    background-image: url(./SolucionesContablesfondonegro.png);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
+        .main-containermain{
+            justify-content: center;
+            display: flex;
+            flex-direction: row;
+        }
+        
+        nav {
+            margin: 10px 0;
+            text-align: center;
+            padding: 5px;
+            border: 3px black;
+        }
+        nav a {
+            margin: 0 15px;
+            padding: 5px;
+            height: 60px;
+            width: 60px;
+            color: #004d99;
+            text-decoration: none;
+            font-weight: bold;
+            background-color: white;
+            border-radius: 20px;
+        }
+        nav a:hover {
+            background-color: #00bfa6; /* Verde agua tenue */
+            color: white; /* Cambia el color del texto a blanco */
+        }
+        section {
+            padding: 20px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
 
-/* Encabezado */
-header {
-    background-color: #004d99;
-    color: white;
-    padding: 20px;
-    text-align: center;
-}
+        }
+        .service {
+            background-color: white;
+            width: auto;
+            height: 250px;
+            border-radius: 30px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background-color: #004d99;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        .contact-info {
+            margin-top: 20px;
+            
+        }
 
-/* Contenedor principal */
-.main-containermain {
-    justify-content: center;
-    display: flex;
-    flex-direction: row;
-}
+        .clickredes{
+            font-size: 10px;
+        }
 
-/* Navegación */
-nav {
-    margin: 10px 0;
-    text-align: center;
-    padding: 5px;
-    border: 3px solid black; /* Corregido para tener borde sólido */
-}
+        .contacto1{
+            background-color: white;
+            max-width: auto;
+            height: 250px;
+            border-radius: 30px;
+            margin-bottom: 20px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            display: flex; /* Hace que los elementos hijos estén en línea, uno al lado del otro */
+            justify-content: space-evenly; /* Distribuye espacio entre los divs */
+            align-items: center; /* Alinea verticalmente los divs si tienen diferente altura */
+            gap: 0px; /* Espacio entre los divs */
+            
+        }
 
-nav a {
-    margin: 0 15px;
-    padding: 5px;
-    height: 60px;
-    width: 60px;
-    color: #004d99;
-    text-decoration: none;
-    font-weight: bold;
-    background-color: white;
-    border-radius: 20px;
-}
+        #nosotros{
+            background-color: white;
+            max-width: auto;
+            height: 250px;
+            border-radius: 30px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        }
 
-nav a:hover {
-    background-color: #00bfa6; /* Verde agua tenue */
-    color: white; /* Cambia el color del texto a blanco */
-}
 
-/* Sección */
-section {
-    padding: 20px;
-}
-
-/* Contenedor */
-.container {
-    max-width: 1200px;
-    margin: auto;
-    padding: 20px;
-}
-
-/* Servicio */
-.service {
-    background-color: white;
-    width: auto;
-    height: 250px;
-    border-radius: 30px;
-    padding: 20px;
-    margin-bottom: 20px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-}
-
-/* Pie de página */
-footer {
-    background-color: #004d99;
-    color: white;
-    text-align: center;
-    padding: 20px;
-    position: relative;
-    bottom: 0;
-    width: 100%;
-}
-
-/* Información de contacto */
-.contact-info {
-    margin-top: 20px;
-}
-
-.clickredes {
-    font-size: 10px;
-}
-
-/* Contacto 1 */
-.contacto1 {
-    background-color: white;
-    max-width: auto;
-    height: 250px;
-    border-radius: 30px;
-    margin-bottom: 20px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-    display: flex; /* Hace que los elementos hijos estén en línea, uno al lado del otro */
-    justify-content: space-evenly; /* Distribuye espacio entre los divs */
-    align-items: center; /* Alinea verticalmente los divs si tienen diferente altura */
-    gap: 0px; /* Espacio entre los divs */
-}
-
-/* Nosotros */
-#nosotros {
-    background-color: white;
-    max-width: auto;
-    height: 250px;
-    border-radius: 30px;
-    padding: 20px;
-    margin-bottom: 20px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-}
-
-/* Contacto */
-#contacto .container {
+        #contacto .container {
     background-color: white;
     border-radius: 30px;
     box-shadow: 0 0 40px rgba(0, 0, 0, 0.1);
@@ -211,7 +193,7 @@ footer {
     margin-bottom: 10px;
 }
 
-.serviciosnuestros {
+.serviciosnuestros{
     background-color: white;
     border-radius: 30px;
     padding: 8px;
@@ -219,14 +201,14 @@ footer {
     text-align: center;
 }
 
-.blog-post {
+.blog-post{
     padding: 3px;
     border-radius: 10px;
     background-color: #d7d7d7;
     box-shadow: black;
 }
-</style>
 
+    </style>
 </head>
 <body>
 
@@ -433,56 +415,9 @@ footer {
     </section>
 
 </div>
-<div class="main_container2">
-    <aside class="sidebar">
-        <section id="blog">
-            <h2>Últimas Noticias</h2>
-            <article class="blog-post">
-                <h3>Registro de acciones y beneficiarios vence el 31 de Octubre</h3>
-                <p>📢 Registro de Transparencia y Beneficiarios finales. Ley 9416
 
-                    Todas las personas jurídicas, estan obligados a presentar esta declaración para  mantener actualizada la información sobre sus accionistas y beneficiarios finales.
-                
-                Posibles consecuencias por NO presentar:
-                1. Sanciones monetarias de entre 3 y 100 salarios base.
-                2. Imposibilidad de realizar trámites ante el registro Nacional y otras entidades del estado.
-                3. Suspensión de acceso a cuentas bancarias.
-                
-                
-                📲 Evitelo, Contáctanos para más información al 7190-0231</p>
-            </article>
-
-        </section>
-
-        <!-- Galería de Infografías -->
-        <section id="galeria">
-            <h2>Galería de Infografías</h2>
-            <div class="gallery">
-                <img src="Infografia1.jpg" alt="Facturación electrónica" width="350px" height="350px">
-                <img src="Infografia2.jpg" alt="contabilidad" width="350px" height="350px">
-                <img src="Infografia3.png" alt="Contadores" width="350px" height="350px">
-            </div>
-        </section>
-
-        <!-- Mapas de Google Maps -->
-        <section id="mapas">
-            <h2>Nuestras Ubicaciones</h2>
-            
-            <!-- Mapa de Zapote -->
-            <div class="mapa">
-                <h3>Zapote</h3>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3930.1454933951727!2d-84.07052942427022!3d9.92183847437333!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8fa0e3722593a34f%3A0x83efdfe357533ba7!2sTaller%20MC!5e0!3m2!1ses!2scr!4v1729741628385!5m2!1ses!2scr" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></iframe>
-            </div>
-            
-            <!-- Mapa de Moravia -->
-            <div class="mapa">
-                <h3>Moravia</h3>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d655.6124773888504!2d-84.01554477320552!3d9.997339794666042!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2scr!4v1729742041866!5m2!1ses!2scr" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-            </div>
-        </section>
-    </aside>
 </div>
-</div>
+
 
 <section id="contacto">
     <div class="container">
@@ -502,6 +437,27 @@ footer {
             <img src="SolucionesContablesfondo lanco.png" width="150px" height="auto" alt="Soluciones contables">
         </div>
     </div>
+
+    <section id="maps">
+        <div class="container">
+            <div class="mapas">
+                <h2>Nuestras Ubicaciones</h2>
+            
+                <!-- Mapa de Zapote -->
+                <div class="mapa">
+                    <h3>Zapote</h3>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3930.1454933951727!2d-84.07052942427022!3d9.92183847437333!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8fa0e3722593a34f%3A0x83efdfe357533ba7!2sTaller%20MC!5e0!3m2!1ses!2scr!4v1729741628385!5m2!1ses!2scr" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></iframe>
+                </div>
+                
+                <!-- Mapa de Moravia -->
+                <div class="mapa">
+                    <h3>Moravia</h3>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d655.6124773888504!2d-84.01554477320552!3d9.997339794666042!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2scr!4v1729742041866!5m2!1ses!2scr" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
 </section>
     <footer>
         <p> San José - Costa Rica</p>
