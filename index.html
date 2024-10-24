@@ -9,6 +9,42 @@
     <title>L&P Contadores - Soluciones Contables</title>
     <link rel="stylesheet" href="styles.css"> <!-- Aquí podrías vincular un archivo de estilos CSS para personalizar el diseño -->
     <style>
+/* Estilos generales */
+body {
+    font-size: 16px;
+    line-height: 1.5;
+}
+.container {
+    width: 90%; /* El ancho es relativo al tamaño de la pantalla */
+    margin: 0 auto; /* Centramos el contenido */
+}
+.container {
+    display: flex;
+    flex-direction: column; /* Se coloca una columna para pantallas pequeñas */
+    align-items: center;
+    justify-content: center;
+}
+
+/* Para pantallas más pequeñas de 768px (típicas de móviles) */
+@media (max-width: 768px) {
+    .container {
+        width: 100%; /* Se ajusta al ancho completo de la pantalla */
+    }
+
+    nav {
+        display: none; /* Puedes ocultar elementos si es necesario */
+    }
+
+    img {
+        width: 100%; /* Asegurarse de que las imágenes no sobrepasen el ancho de la pantalla */
+        height: auto;
+    }
+}
+img, video {
+    max-width: 100%; /* La imagen nunca excederá el 100% del ancho del contenedor */
+    height: auto; /* Mantendrá las proporciones */
+}
+
         body {
             font-family: Arial, sans-serif;
             margin: 0;
