@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="L&P Contadores - Soluciones contables y facturación electrónica. Ofrecemos servicios de contabilidad, asesoría gratuita, certificaciones de ingresos y más.">
+    <meta name="keywords" content="contabilidad, facturación electrónica, certificaciones de ingresos, planillas, declaración de impuestos, asesoría contable, registro de accionistas, L&P Contadores, Costa Rica">
+    <meta name="author" content="L&P Contadores">
+    <title>L&P Contadores - Soluciones Contables</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Aquí podrías vincular un archivo de estilos CSS para personalizar el diseño -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            background-image: url(./SolucionesContablesfondonegro.png);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+        header {
+            background-color: #004d99;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .main-containermain{
+            justify-content: center;
+            display: flex;
+            flex-direction: row;
+        }
+        
+        nav {
+            margin: 10px 0;
+            text-align: center;
+            padding: 5px;
+            border: 3px black;
+        }
+        nav a {
+            margin: 0 15px;
+            padding: 5px;
+            height: 60px;
+            width: 60px;
+            color: #004d99;
+            text-decoration: none;
+            font-weight: bold;
+            background-color: white;
+            border-radius: 20px;
+        }
+        nav a:hover {
+            background-color: #00bfa6; /* Verde agua tenue */
+            color: white; /* Cambia el color del texto a blanco */
+        }
+        section {
+            padding: 20px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+
+        }
+        .service {
+            background-color: white;
+            width: auto;
+            height: 250px;
+            border-radius: 30px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background-color: #004d99;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        .contact-info {
+            margin-top: 20px;
+            
+        }
+
+        .clickredes{
+            font-size: 10px;
+        }
+
+        .contacto1{
+            background-color: white;
+            max-width: auto;
+            height: 250px;
+            border-radius: 30px;
+            margin-bottom: 20px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            display: flex; /* Hace que los elementos hijos estén en línea, uno al lado del otro */
+            justify-content: space-evenly; /* Distribuye espacio entre los divs */
+            align-items: center; /* Alinea verticalmente los divs si tienen diferente altura */
+            gap: 0px; /* Espacio entre los divs */
+            
+        }
+
+        #nosotros{
+            background-color: white;
+            max-width: auto;
+            height: 250px;
+            border-radius: 30px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        }
+
+
+        #contacto .container {
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.1);
+    display: flex; /* Flexbox para alinear horizontalmente los elementos */
+    justify-content: center; /* Centra los divs dentro del contenedor */
+    align-items: center; /* Alinea verticalmente en el centro */
+    gap: 20px; /* Espacio entre los dos divs */
+    padding: 20px; /* Espaciado interno */
+}
+
+#contacto .info {
+    flex: 1; /* Permite que el contenido de contacto ocupe el espacio disponible */
+}
+
+#contacto .logo img {
+    width: 150px; /* Ajusta el tamaño del logo */
+    height: auto; /* Mantiene la proporción del logo */
+}
+
+#contacto h2, #contacto p {
+    margin: 10px 0; /* Controla el espaciado entre los elementos de texto */
+}
+
+#contacto a {
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+    color: #007BFF; /* Color para los enlaces */
+}
+
+#contacto a:hover {
+    text-decoration: underline; /* Subraya el enlace al pasar el cursor */
+}
+
+/* Estilos generales */
+.main-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px;
+}
+
+.content {
+    flex: 2;
+    padding-right: 20px;
+}
+
+.sidebar {
+    max-width: 450px;
+    flex: 1;
+    border-radius: 30px;
+    padding: 15px;
+    background-color: white;
+    border-left: 1px solid #ccc;
+}
+
+/* Estilos para los mapas */
+#mapas .mapa {
+    margin-bottom: 20px;
+}
+
+#mapas iframe {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#mapas h3 {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.serviciosnuestros{
+    background-color: white;
+    border-radius: 30px;
+    padding: 8px;
+    width: 300px;
+    text-align: center;
+}
+
+.blog-post{
+    padding: 3px;
+    border-radius: 10px;
+    background-color: #d7d7d7;
+    box-shadow: black;
+}
+
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="SolucionesContablesfondo lanco.png" width="150px" height="auto" alt="Soluciones contables">
+        <h1>L&P Contadores</h1>
+        <p>Soluciones contables y facturación electrónica</p>
+    </header>
+<div class="main-containermain">
+    <div class="main_container1">
+    <nav>
+        <a href="#nosotros">Nosotros</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+
+    <section id="nosotros">
+        <div class="container">
+            <h2>Sobre Nosotros</h2>
+            <p>
+                Somos una compañía de servicios de contabilidad ubicada en  Moravia y Zapote. Nuestra contadora es experta en el ámbito de la contabilidad, con más de 13 años de experiencia en empresas públicas, semi-públicas y privadas. 
+                Está inscrita en el Colegio de Contadores Privados y el Colegio de Contadores Públicos de Costa Rica.
+                Desde nuestras oficinas en Zapote y Moravia, podemos brindarete la asesoría gratuita que necesitas para mejorar las finanzas de tu negocio, pero no solo nos enfocamos en visitas presenciales, contamos con asesoría online.
+            </p>
+            <p>
+                Ofrecemos asesoría gratuita en servicios contables y financieros, para apoyar a pequeñas y medianas empresas (PYMES) en su crecimiento.
+            </p>
+        </div>
+    </section>
+
+
+    <section id="servicios">
+        <div class="container">
+            <h2 class="serviciosnuestros">Nuestros Servicios</h2>
+
+            <div class="service">
+                <h3>Asesoría Gratuita</h3>
+                <p>Te ayudamos a mejorar la gestión financiera de tu empresa, con una asesoría totalmente gratuita.</p>
+                <img src="asesoramientogratuito.jpg" width="150px" height="auto" alt="">
+                <p class="clickredes">Puedes clickear en las redes abajo para encontar los links directos</p>
+                <div class="linksaredes">
+                    <a href="https://wa.me/50671900231" target="_blank">
+                        <img src="69-698671_whatsapp-vector-logo-logo-whatsapp-png-removebg-preview.png" alt="WhatsApp" style="width: 30px;">
+                    </a>
+                    
+                    <a href="https://www.facebook.com/LyPContadores" target="_blank">
+                        <img src="Facebook-logo-removebg-preview.png" alt="WhatsApp" style="width: 55px;">
+                    </a>
+                
+                    <a href="https://www.instagram.com/lpcontadores.sc/" target="_blank">
+                        <img src="png-transparent-logo-instagram-text-logo-number-removebg-preview.png" alt="WhatsApp" style="width: 48px;">
+                    </a>
+
+                    <a href="https://cr.linkedin.com/company/l-p-contadores-soluciones-contables?trk=public_post_reshare_feed-actor-name" target="_blank">
+                        <img src="LinkedIn_logo_initials-removebg-preview.png" alt="WhatsApp" style="width: 30px;">
+                    </a>
+                </div>
+            </div>
+
+            <div class="service">
+                <h3>Facturación Electrónica</h3>
+                <p>Implementación y gestión de sistemas de facturación electrónica adaptados a las normativas de Hacienda.</p>
+                <img src="Facturaelectronica.jpg" width="150px" height="auto" alt="">
+                <p class="clickredes">Puedes clickear en las redes abajo para encontar los links directos</p>
+                <div class="linksaredes">
+                    <a href="https://wa.me/50671900231" target="_blank">
+                        <img src="69-698671_whatsapp-vector-logo-logo-whatsapp-png-removebg-preview.png" alt="WhatsApp" style="width: 30px;">
+                    </a>
+                    
+                    <a href="https://www.facebook.com/LyPContadores" target="_blank">
+                        <img src="Facebook-logo-removebg-preview.png" alt="WhatsApp" style="width: 55px;">
+                    </a>
+                
+                    <a href="https://www.instagram.com/lpcontadores.sc/" target="_blank">
+                        <img src="png-transparent-logo-instagram-text-logo-number-removebg-preview.png" alt="WhatsApp" style="width: 48px;">
+                    </a>
+
+                    <a href="https://cr.linkedin.com/company/l-p-contadores-soluciones-contables?trk=public_post_reshare_feed-actor-name" target="_blank">
+                        <img src="LinkedIn_logo_initials-removebg-preview.png" alt="WhatsApp" style="width: 30px;">
+                    </a>
+                </div>
+            </div>
+
+            <div class="service">
+                <h3>Declaraciones de Hacienda</h3>
+                <p>Realizamos las declaraciones tributarias para cumplir con las obligaciones fiscales ante Hacienda.</p>
+                <img src="impuestos.jpg" width="150px" height="auto" alt="">
+                <p class="clickredes">Puedes clickear en las redes abajo para encontar los links directos</p>
+                <div class="linksaredes">
+                    <a href="https://wa.me/50671900231" target="_blank">
+                        <img src="69-698671_whatsapp-vector-logo-logo-whatsapp-png-removebg-preview.png" alt="WhatsApp" style="width: 30px;">
+                    </a>
+                    
+                    <a href="https://www.facebook.com/LyPContadores" target="_blank">
+                        <img src="Facebook-logo-removebg-preview.png" alt="WhatsApp" style="width: 55px;">
+                    </a>
+                
+                    <a href="https://www.instagram.com/lpcontadores.sc/" target="_blank">
+                        <img src="png-transparent-logo-instagram-text-logo-number-removebg-preview.png" alt="WhatsApp" style="width: 48px;">
+                    </a>
+
+                    <a href="https://cr.linkedin.com/company/l-p-contadores-soluciones-contables?trk=public_post_reshare_feed-actor-name" target="_blank">
+                        <img src="LinkedIn_logo_initials-removebg-preview.png" alt="WhatsApp" style="width: 30px;">
+                    </a>
+                </div>
+            </div>
+
+            <div class="service">
+                <h3>Certificaciones de Ingresos</h3>
+                <p>Emisión de certificaciones de ingresos para cumplir con los requisitos bancarios y legales.</p>
+                <img src="certificacion.jpg" width="150px" height="auto" alt="">
+                <p class="clickredes">Puedes clickear en las redes abajo para encontar los links directos</p>
+                <div class="linksaredes">
+                    <a href="https://wa.me/50671900231" target="_blank">
+                        <img src="69-698671_whatsapp-vector-logo-logo-whatsapp-png-removebg-preview.png" alt="WhatsApp" style="width: 30px;">
+                    </a>
+                    
+                    <a href="https://www.facebook.com/LyPContadores" target="_blank">
+                        <img src="Facebook-logo-removebg-preview.png" alt="WhatsApp" style="width: 55px;">
+                    </a>
+                
+                    <a href="https://www.instagram.com/lpcontadores.sc/" target="_blank">
+                        <img src="png-transparent-logo-instagram-text-logo-number-removebg-preview.png" alt="WhatsApp" style="width: 48px;">
+                    </a>
+
+                    <a href="https://cr.linkedin.com/company/l-p-contadores-soluciones-contables?trk=public_post_reshare_feed-actor-name" target="_blank">
+                        <img src="LinkedIn_logo_initials-removebg-preview.png" alt="WhatsApp" style="width: 30px;">
+                    </a>
+                </div>
+            </div>
+
+            <div class="service">
+                <h3>Presentación de Planillas ante la CCSS</h3>
+                <p>Gestionamos y presentamos las planillas de tus empleados ante la CCSS de manera eficiente y puntual.</p>
+                <img src="planillas.jpg" width="150px" height="auto" alt="">
+                <p class="clickredes">Puedes clickear en las redes abajo para encontar los links directos</p>
+                <div class="linksaredes">
+                    <a href="https://wa.me/50671900231" target="_blank">
+                        <img src="69-698671_whatsapp-vector-logo-logo-whatsapp-png-removebg-preview.png" alt="WhatsApp" style="width: 30px;">
+                    </a>
+                    
+                    <a href="https://www.facebook.com/LyPContadores" target="_blank">
+                        <img src="Facebook-logo-removebg-preview.png" alt="WhatsApp" style="width: 55px;">
+                    </a>
+                
+                    <a href="https://www.instagram.com/lpcontadores.sc/" target="_blank">
+                        <img src="png-transparent-logo-instagram-text-logo-number-removebg-preview.png" alt="WhatsApp" style="width: 48px;">
+                    </a>
+
+                    <a href="https://cr.linkedin.com/company/l-p-contadores-soluciones-contables?trk=public_post_reshare_feed-actor-name" target="_blank">
+                        <img src="LinkedIn_logo_initials-removebg-preview.png" alt="WhatsApp" style="width: 30px;">
+                    </a>
+                </div>
+            </div>
+
+            <div class="service">
+                <h3>Registro de Accionistas</h3>
+                <p>Te apoyamos con el registro de accionistas ante las autoridades correspondientes.</p>
+                <img src="accionistas.jpg" width="150px" height="auto" alt="">
+                <p class="clickredes">Puedes clickear en las redes abajo para encontar los links directos</p>
+                <div class="linksaredes">
+                    <a href="https://wa.me/50671900231" target="_blank">
+                        <img src="69-698671_whatsapp-vector-logo-logo-whatsapp-png-removebg-preview.png" alt="WhatsApp" style="width: 30px;">
+                    </a>
+                    
+                    <a href="https://www.facebook.com/LyPContadores" target="_blank">
+                        <img src="Facebook-logo-removebg-preview.png" alt="WhatsApp" style="width: 55px;">
+                    </a>
+                
+                    <a href="https://www.instagram.com/lpcontadores.sc/" target="_blank">
+                        <img src="png-transparent-logo-instagram-text-logo-number-removebg-preview.png" alt="WhatsApp" style="width: 48px;">
+                    </a>
+
+                    <a href="https://cr.linkedin.com/company/l-p-contadores-soluciones-contables?trk=public_post_reshare_feed-actor-name" target="_blank">
+                        <img src="LinkedIn_logo_initials-removebg-preview.png" alt="WhatsApp" style="width: 30px;">
+                    </a>
+                </div>
+            </div>
+
+            <div class="service">
+                <h3>Y más...</h3>
+                <p>Ofrecemos una amplia gama de servicios personalizados según las necesidades de tu negocio.</p>
+                <img src="ymas.jpg" width="150px" height="auto" alt="">
+                <p class="clickredes">Puedes clickear en las redes abajo para encontar los links directos</p>
+                <div class="linksaredes">
+                    <a href="https://wa.me/50671900231" target="_blank">
+                        <img src="69-698671_whatsapp-vector-logo-logo-whatsapp-png-removebg-preview.png" alt="WhatsApp" style="width: 30px;">
+                    </a>
+                    
+                    <a href="https://www.facebook.com/LyPContadores" target="_blank">
+                        <img src="Facebook-logo-removebg-preview.png" alt="WhatsApp" style="width: 55px;">
+                    </a>
+                
+                    <a href="https://www.instagram.com/lpcontadores.sc/" target="_blank">
+                        <img src="png-transparent-logo-instagram-text-logo-number-removebg-preview.png" alt="WhatsApp" style="width: 48px;">
+                    </a>
+
+                    <a href="https://cr.linkedin.com/company/l-p-contadores-soluciones-contables?trk=public_post_reshare_feed-actor-name" target="_blank">
+                        <img src="LinkedIn_logo_initials-removebg-preview.png" alt="WhatsApp" style="width: 30px;">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</div>
+<div class="main_container2">
+    <aside class="sidebar">
+        <section id="blog">
+            <h2>Últimas Noticias</h2>
+            <article class="blog-post">
+                <h3>Registro de acciones y beneficiarios vence el 31 de Octubre</h3>
+                <p>📢 Registro de Transparencia y Beneficiarios finales. Ley 9416
+
+                    Todas las personas jurídicas, estan obligados a presentar esta declaración para  mantener actualizada la información sobre sus accionistas y beneficiarios finales.
+                
+                Posibles consecuencias por NO presentar:
+                1. Sanciones monetarias de entre 3 y 100 salarios base.
+                2. Imposibilidad de realizar trámites ante el registro Nacional y otras entidades del estado.
+                3. Suspensión de acceso a cuentas bancarias.
+                
+                
+                📲 Evitelo, Contáctanos para más información al 7190-0231</p>
+            </article>
+
+        </section>
+
+        <!-- Galería de Infografías -->
+        <section id="galeria">
+            <h2>Galería de Infografías</h2>
+            <div class="gallery">
+                <img src="Infografia1.jpg" alt="Facturación electrónica" width="350px" height="350px">
+                <img src="Infografia2.jpg" alt="contabilidad" width="350px" height="350px">
+                <img src="Infografia3.png" alt="Contadores" width="350px" height="350px">
+            </div>
+        </section>
+
+        <!-- Mapas de Google Maps -->
+        <section id="mapas">
+            <h2>Nuestras Ubicaciones</h2>
+            
+            <!-- Mapa de Zapote -->
+            <div class="mapa">
+                <h3>Zapote</h3>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3930.1454933951727!2d-84.07052942427022!3d9.92183847437333!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8fa0e3722593a34f%3A0x83efdfe357533ba7!2sTaller%20MC!5e0!3m2!1ses!2scr!4v1729741628385!5m2!1ses!2scr" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></iframe>
+            </div>
+            
+            <!-- Mapa de Moravia -->
+            <div class="mapa">
+                <h3>Moravia</h3>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d655.6124773888504!2d-84.01554477320552!3d9.997339794666042!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2scr!4v1729742041866!5m2!1ses!2scr" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+    </aside>
+</div>
+</div>
+
+<section id="contacto">
+    <div class="container">
+        <div class="info">
+            <h2>Contáctanos</h2>
+            <p>Ubicación: Zapote y Moravia, Costa Rica</p>
+            <p>Teléfono/WhatsApp: <a href="https://wa.me/50671900231" target="_blank">+506 7190-0231</a></p>
+            <p>Correo Electrónico: <a href="mailto:solucionesconta.sc@gmail.com">solucionesconta.sc@gmail.com</a></p>
+            <p>Síguenos en nuestras redes sociales:</p>
+            <p>
+                <a href="https://www.facebook.com/LyPContadores" target="_blank">Facebook</a> | 
+                <a href="https://www.instagram.com/lpcontadores.sc/" target="_blank">Instagram</a> | 
+                <a href="https://cr.linkedin.com/company/l-p-contadores-soluciones-contables?trk=public_post_reshare_feed-actor-name" target="_blank">LinkedIn</a>
+            </p>
+        </div>
+        <div class="logo">
+            <img src="Assests web/SolucionesContablesfondo lanco.png" width="150px" height="auto" alt="Soluciones contables">
+        </div>
+    </div>
+</section>
+    <footer>
+        <p> San José - Costa Rica</p>
+        <p>&copy; 2024 L&P Contadores - Soluciones Contables</p>
+        <div class="contact-info">
+            <p>Teléfono: +506 7190-0231 | Correo: solucionesconta.sc@gmail.com</p>
+        </div>
+    </footer>
+
+</body>
+</html>
