@@ -9,121 +9,137 @@
     <title>L&P Contadores - Soluciones Contables</title>
     <link rel="stylesheet" href="styles.css"> <!-- Aquí podrías vincular un archivo de estilos CSS para personalizar el diseño -->
     <style>
-        
-        /* Ajustes para pantallas pequeñas */
-@media (max-width: 768px) {}
-    /* Elimina el fondo fijo en móviles */
+/* Ajustes para pantallas pequeñas */
+@media (max-width: 768px) {
     body {
         background-attachment: scroll;
         background-size: contain;
     }
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-            background-image: url(./SolucionesContablesfondonegro.png);
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-            background-attachment: fixed;
-        }
-        header {
-            background-color: #004d99;
-            color: white;
-            padding: 20px;
-            text-align: center;
-        }
+}
 
-        .main-containermain{
-            justify-content: center;
-            display: flex;
-            flex-direction: row;
-        }
-        
-        nav {
-            margin: 10px 0;
-            text-align: center;
-            padding: 5px;
-            border: 3px black;
-        }
-        nav a {
-            margin: 0 15px;
-            padding: 5px;
-            height: 60px;
-            width: 60px;
-            color: #004d99;
-            text-decoration: none;
-            font-weight: bold;
-            background-color: white;
-            border-radius: 20px;
-        }
-        nav a:hover {
-            background-color: #00bfa6; /* Verde agua tenue */
-            color: white; /* Cambia el color del texto a blanco */
-        }
-        section {
-            padding: 20px;
-        }
-        .container {
-            max-width: 1200px;
-            margin: auto;
-            padding: 20px;
+/* Estilo general del cuerpo */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    background-image: url(./SolucionesContablesfondonegro.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
 
-        }
-        .service {
-            background-color: white;
-            width: auto;
-            height: 250px;
-            border-radius: 30px;
-            padding: 20px;
-            margin-bottom: 20px;
-            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-        }
-        footer {
-            background-color: #004d99;
-            color: white;
-            text-align: center;
-            padding: 20px;
-            position: relative;
-            bottom: 0;
-            width: 100%;
-        }
-        .contact-info {
-            margin-top: 20px;
-            
-        }
+/* Encabezado */
+header {
+    background-color: #004d99;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
 
-        .clickredes{
-            font-size: 10px;
-        }
+/* Contenedor principal */
+.main-containermain {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
 
-        .contacto1{
-            background-color: white;
-            max-width: auto;
-            height: 250px;
-            border-radius: 30px;
-            margin-bottom: 20px;
-            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-            display: flex; /* Hace que los elementos hijos estén en línea, uno al lado del otro */
-            justify-content: space-evenly; /* Distribuye espacio entre los divs */
-            align-items: center; /* Alinea verticalmente los divs si tienen diferente altura */
-            gap: 0px; /* Espacio entre los divs */
-            
-        }
+/* Navegación */
+nav {
+    margin: 10px 0;
+    text-align: center;
+    padding: 5px;
+    border: 3px solid black; /* Corregido para tener borde sólido */
+}
 
-        #nosotros{
-            background-color: white;
-            max-width: auto;
-            height: 250px;
-            border-radius: 30px;
-            padding: 20px;
-            margin-bottom: 20px;
-            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-        }
+nav a {
+    margin: 0 15px;
+    padding: 5px;
+    height: 60px;
+    width: 60px;
+    color: #004d99;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: white;
+    border-radius: 20px;
+}
 
+nav a:hover {
+    background-color: #00bfa6; /* Verde agua tenue */
+    color: white; /* Cambia el color del texto a blanco */
+}
 
-        #contacto .container {
+/* Sección */
+section {
+    padding: 20px;
+}
+
+/* Contenedor */
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Servicio */
+.service {
+    background-color: white;
+    width: auto;
+    height: 250px;
+    border-radius: 30px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Pie de página */
+footer {
+    background-color: #004d99;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Información de contacto */
+.contact-info {
+    margin-top: 20px;
+}
+
+.clickredes {
+    font-size: 10px;
+}
+
+/* Contacto 1 */
+.contacto1 {
+    background-color: white;
+    max-width: auto;
+    height: 250px;
+    border-radius: 30px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    display: flex; /* Hace que los elementos hijos estén en línea, uno al lado del otro */
+    justify-content: space-evenly; /* Distribuye espacio entre los divs */
+    align-items: center; /* Alinea verticalmente los divs si tienen diferente altura */
+    gap: 0px; /* Espacio entre los divs */
+}
+
+/* Nosotros */
+#nosotros {
+    background-color: white;
+    max-width: auto;
+    height: 250px;
+    border-radius: 30px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Contacto */
+#contacto .container {
     background-color: white;
     border-radius: 30px;
     box-shadow: 0 0 40px rgba(0, 0, 0, 0.1);
@@ -194,7 +210,7 @@
     margin-bottom: 10px;
 }
 
-.serviciosnuestros{
+.serviciosnuestros {
     background-color: white;
     border-radius: 30px;
     padding: 8px;
@@ -202,14 +218,14 @@
     text-align: center;
 }
 
-.blog-post{
+.blog-post {
     padding: 3px;
     border-radius: 10px;
     background-color: #d7d7d7;
     box-shadow: black;
 }
+</style>
 
-    </style>
 </head>
 <body>
 
